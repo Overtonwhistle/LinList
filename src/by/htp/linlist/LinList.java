@@ -67,7 +67,6 @@ public class LinList<E> {
 		Node<E> temp = head;
 		for (int i = 0; i < position - 1; i++) {
 			if (temp.next == null) {
-				// System.out.println("Incorrect position!");
 				return false;
 			}
 			temp = temp.next;
