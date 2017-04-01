@@ -1,4 +1,4 @@
-package by.htp.linlist;
+package by.htp.lists.linlist;
 
 public class ListTest {
 
@@ -24,7 +24,7 @@ public class ListTest {
 	
 	System.out.println("size="+list.size());
 //	list.addHead(new Integer ("121")*2);
-	list.printList();
+//	list.printList();
 
 	LinList<Integer> listInt = new LinList<Integer>();
 	
@@ -60,6 +60,18 @@ public class ListTest {
 	listInt2.printList();
 	}
 	
-	
+		public <E> void printList(LinList<E> list) {
+	if (list.size() == 0) {
+		System.out.println("List is empty!");
+		return;
+	}
+
+	list.Node temp = list.head;
+	do {
+		System.out.println(temp.value);
+		temp = temp.next;
+	} while (temp != null);
+
+}
 	
 }
