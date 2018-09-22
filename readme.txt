@@ -1,2 +1,3 @@
 This is demo text for training.
-This line had been added from online editor.
+This line was added from online editor.
+Previous line was edited for grammar mistakes at local machine :)
