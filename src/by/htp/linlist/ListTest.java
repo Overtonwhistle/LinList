@@ -28,7 +28,7 @@ public class ListTest {
 	listInt.addTail(5);
 	listInt.addTail(6);
 	
-	System.out.println("size="+listInt.size());
+	System.out.println("size of list="+listInt.size());
 	listInt.printList();
 	System.out.println("inserting");
 	System.out.println(listInt.insertPos(100, 3));
