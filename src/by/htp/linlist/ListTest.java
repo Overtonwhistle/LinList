@@ -10,11 +10,6 @@ public class ListTest {
 	list.addHead("4");
 	list.addHead("5");
 	
-//	System.out.println("head:" +list.head.value);
-//	System.out.println("head:" +list.head.value);
-//	System.out.println("tail:" +list.tail.value);
-//	System.out.println("tail:" +list.tail.value);
-	
 	
 	System.out.println("size="+list.size());
 	
@@ -23,8 +18,6 @@ public class ListTest {
 	System.out.println("tail:" +list.tail.value);
 	
 	System.out.println("size="+list.size());
-//	list.addHead(new Integer ("121")*2);
-//	list.printList();
 
 	LinList<Integer> listInt = new LinList<Integer>();
 	
@@ -39,16 +32,12 @@ public class ListTest {
 	listInt.printList();
 	System.out.println("inserting");
 	System.out.println(listInt.insertPos(100, 3));
-//	listInt.addHead(100);
+
 	listInt.printList();
 	
 	LinList<Integer> listInt2 = new LinList<Integer>();
 	listInt2.addHead(listInt.find(100));
-//	System.out.println("list2");
-//	listInt2.printList();
-//	System.out.println(listInt2.contains(100));
-//	System.out.println(listInt.size());
-//	System.out.println(listInt.contains(1));
+
 	
 	System.out.println(listInt.remove(100));
 	listInt.printList();
