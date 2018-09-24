@@ -4,3 +4,4 @@ This line was added by "develop".
 This line was added by master before rebasing.
 This line was added as second action from develop in order to preform advanced git task :)
 
+This line was added by develop after rebasing, as second part of adv. git task.
