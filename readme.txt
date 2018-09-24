@@ -7,3 +7,5 @@ Master had added this line before rebasing.
 =======
 Advanced edit one from develop
 Add advanced comment
+
+This line was added by master to provoke a merge conflict.
