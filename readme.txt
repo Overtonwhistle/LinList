@@ -8,4 +8,7 @@ Master had added this line before rebasing.
 Advanced edit one from develop
 Add advanced comment
 
+
 This line was added by master to provoke a merge conflict.
+This line was added by develop to provoke a conflict during the merging.
+Conflict had been solved manually :)
